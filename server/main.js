@@ -32,5 +32,4 @@ app.get('/listcontestants',userinrole('user'),getAllCandiates);
 app.post('/addCandidate',userinrole('user'),addCandidate);
 app.post('/addvote/:cid',userinrole('user'),addvote)
 app.get('/getCandidateDetails/:cid',userinrole('user'),getCandidateDetails)
-app.listen(port)
-console.log("app is listennin on"+port)
+app.listen(port,() => console.log("Server is running on "+port))

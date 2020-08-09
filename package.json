@@ -7,9 +7,7 @@
   "description": "hacker earth CODA challenge",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild":"dburi='mongodb+srv://test:Pass12345@cluster0-aw7ut.mongodb.net/test?retryWrites=true&w=majority' node server/main.js",
-    "build":"dburi='mongodb+srv://test:Pass12345@cluster0-aw7ut.mongodb.net/test?retryWrites=true&w=majority' node server/main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "someskumar",
   "license": "MIT",
