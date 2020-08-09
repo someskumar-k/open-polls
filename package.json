@@ -1,6 +1,9 @@
 {
   "name": "open-poll",
   "version": "1.0.0",
+  "engines": {
+    "node":"12.x"
+  },
   "description": "hacker earth CODA challenge",
   "main": "main.js",
   "scripts": {
